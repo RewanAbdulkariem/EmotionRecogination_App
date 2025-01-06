@@ -56,17 +56,6 @@ Follow these steps to set up the project locally:
    - Use your device's camera to capture a facial image.
 3. Wait for the model to process the image and display the predicted emotion and confidence level.
 
-## File Structure
-
-```
-face-emotion-recognition/
-│
-├── app.py                  # Main Streamlit application
-├── requirements.txt        # Python dependencies
-├── 5.keras                 # Pre-trained model (not included in repo)
-├── README.md               # Project documentation
-```
-
 ## Requirements
 
 - Python 3.7+
@@ -79,15 +68,12 @@ For a full list of dependencies, see `requirements.txt`.
 
 ## Model
 
-The application uses a pre-trained deep learning model saved as `5.keras`. The model was trained on the FER-2013 dataset and outputs probabilities for each emotion class.
+The application uses a pre-trained deep learning model saved as `model.keras`. The model was trained on the FER-2013 dataset and outputs probabilities for each emotion class.
 
 ## Contribution
 
 Contributions are welcome! If you have suggestions or improvements, feel free to open an issue or submit a pull request.
 
-## License
-
-This project is licensed under the MIT License. See the `LICENSE` file for details.
 
 ## Acknowledgments
 
