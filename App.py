@@ -11,7 +11,7 @@ warnings.filterwarnings("ignore")
 # Function to load and cache the model for faster performance
 @st.cache_resource
 def load_model():
-    model = tf.keras.models.load_model('5.keras')
+    model = tf.keras.models.load_model('model.keras')
     return model
 
 def predict_image(image_path, model):
